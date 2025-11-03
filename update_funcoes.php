@@ -43,7 +43,7 @@ $row = $result -> fetch_assoc();
 
 <body>
 
-    <form method="POST" action="update.php?id=<?php echo $row['id'];?>">
+    <form method="POST" action="update_funcoes.php?id=<?php echo $row['id'];?>">
 
         <label for="descricao">Descrição:</label>
         <input type="text" name="descricao" required value="<?php echo htmlspecialchars($row['descricao']); ?>">

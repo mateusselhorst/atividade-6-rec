@@ -25,8 +25,8 @@
                         <td> {$row['prioridade']} </td>
                         <td> {$row['status']} </td>
                         <td>
-                            <a href='update.php?id={$row['id']}'>Editar<a>
-                            <a href='delete.php?id={$row['id']}'>Excluir<a>
+                            <a href='update_funcoes.php?id={$row['id']}'>Editar<a>
+                            <a href='delete_funcoes.php?id={$row['id']}'>Excluir<a>
                         </td>
                     </tr>
             ";
