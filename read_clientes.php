@@ -12,6 +12,7 @@
             <th> Nome </th>
             <th> Email </th>
             <th> Telefone </th>
+            <th> Ações </th>
         </tr>";
 
         while($row = $result -> fetch_assoc()) {

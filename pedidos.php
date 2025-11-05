@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && (isset($_POST['create']))) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create produtos</title>
+    <title>Create pedidos</title>
 </head>
 
 <body>
@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && (isset($_POST['create']))) {
 
         <?php
 
-        include 'read_pedidos.php';
+        include 'read_produtos_cliente.php';
 
         ?>
 

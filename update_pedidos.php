@@ -11,7 +11,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $quantidade = $_POST['quantidade'];
 
 
-    $sql = "UPDATE produtos SET nome ='$nome', preco = '$preco', quantidade = '$quantidade' WHERE id = $id";
+    $sql = "UPDATE pedidos SET nome ='$nome', preco = '$preco', quantidade = '$quantidade' WHERE id = $id";
 
     if ($conn->query($sql) == true) {
         echo "Novo registro no Banco!";

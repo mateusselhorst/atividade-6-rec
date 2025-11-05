@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && (isset($_POST['create']))) {
 
         <?php
 
-        include 'read_produtos.php';
+        include 'read_produtos_cliente.php';
 
         ?>
 
