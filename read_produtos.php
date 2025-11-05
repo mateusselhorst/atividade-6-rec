@@ -22,9 +22,7 @@ if ($result->num_rows > 0) {
                         <td> {$row['nome']} </td>
                         <td> {$row['preco']} </td>
                         <td> {$row['quantidade']} </td>
-                        <td>
-                            <a href='update_produtos.php?id={$row['id']}'>Editar<a>
-                            <a href='delete_produtos.php?id={$row['id']}'>Excluir<a>
+                        <td> <a href='update_produtos.php?id={$row['id']}'>Editar</a> | <a href='delete_produtos.php?id={$row['id']}'>Deletar</a>
                     </tr>
             ";
     };
